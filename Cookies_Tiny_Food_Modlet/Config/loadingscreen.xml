@@ -1,0 +1,15 @@
+<configs>
+
+<!-- <set xpath="doc/backgrounds">
+	<tex file="@modfolder:/Config/backgrounds/RELoading1.jpg"/>
+	<tex file="@modfolder:/Config/backgrounds/RELoading2.jpg"/>
+	<tex file="@modfolder:/Config/backgrounds/RELoading3.jpg"/>	
+</set> -->
+
+
+	<append xpath="//tips">
+		<tip key="loadingTipCredit" />
+		
+	</append>
+
+</configs>

@@ -1,0 +1,61 @@
+﻿<configs>
+	
+		<!-- *** FOOD_SKILLS -->
+	
+
+			<append xpath="//crafting_skill[@name='craftingFood']/display_entry[@icon='foodCornOnTheCob,foodCornBread,foodGrilledMeat,foodBoiledMeat,foodBaconAndEggs']">
+				<unlock_entry item="foodCookiesFriedMushrooms" unlock_tier="1" />
+			    <unlock_entry item="foodCookiesBreakfastHash" unlock_tier="4" />
+				<unlock_entry item="foodCookiesChickenNuggies,foodCookiesHoneyGlazedChicken" unlock_tier="5" />
+			</append>
+	
+	<append xpath="//crafting_skill[@name='craftingFood']/display_entry[@icon='foodPumpkinBread,foodPumpkinPie,foodPumpkinCheesecake,foodMeatStew,foodSteakAndPotato']">
+
+				<unlock_entry item="foodCookiesSalmonMisoSoup,foodCookiesTunaPotatoJacket" unlock_tier="2" />
+				<unlock_entry item="foodCookiesShamStew,foodCookiesNarutomakiFishCakes" unlock_tier="3" />
+				<unlock_entry item="foodCookiesPearSorbet" unlock_tier="4" />
+				<unlock_entry item="foodCookiesPastie" unlock_tier="5" />
+			</append>
+	
+	
+			<append xpath="//crafting_skill[@name='craftingFood']/display_entry[@icon='drinkYuccaJuiceSmoothie,foodHoboStew,foodFishTacos,foodChiliDog,foodShamChowder']">
+
+				<unlock_entry item="foodCookiesFishCakes" unlock_tier="3" />
+
+			</append>
+
+	
+			<append xpath="//crafting_skill[@name='craftingFood']/display_entry[@icon='foodTunaFishGravyToast,foodShepardsPie,drinkJarGrandpasLearningElixir,foodSpaghetti,foodGumboStew']">
+
+				<unlock_entry item="foodCookiesPeaSoup,foodCookiesChickenStroganoff" unlock_tier="4" />
+				<unlock_entry item="foodCookiesMushroomCarbonara,foodCookiesChickenStroganoff" unlock_tier="4" />
+				<unlock_entry item="foodCookiesMamasChickenSoup,foodCookiesRamen" unlock_tier="5" />
+			</append>
+
+
+
+
+
+
+
+		<append xpath="//crafting_skill[@name='craftingFood']">
+
+				<effect_group>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="foodCookiesFriedMushrooms"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,100" value="1" tags="foodCookiesBreakfastHash"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="foodCookiesChickenNuggies,foodCookiesHoneyGlazedChicken"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="14,100" value="1" tags="foodCookiesSalmonMisoSoup,foodCookiesTunaPotatoJacket"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="18,100" value="1" tags="foodCookiesShamStew,foodCookiesNarutomakiFishCakes"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="22,100" value="1" tags="foodCookiesPearSorbet"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,100" value="1" tags="foodCookiesPastie"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="43,100" value="1" tags="foodCookiesFishCakes"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,100" value="1" tags="foodCookiesShamStew,foodCookiesNarutomakiFishCakes"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="80,100" value="1" tags="foodCookiesPeaSoup,foodCookiesChickenStroganoff"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="90,100" value="1" tags="foodCookiesMushroomCarbonara,foodCookiesChickenStroganoff"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="foodCookiesMamasChickenSoup,foodCookiesRamen"/>
+				</effect_group>
+
+			</append>
+	
+
+	</configs>
